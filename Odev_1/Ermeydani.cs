@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace Odev_1
+namespace ConsoleApp17
 {
     class Ermeydani
     {
-        Bolge[,] harita = new Bolge[16, 16];
-
-        public Bolge[,] Harita { get { return harita; } set { harita = value; } }
-
-        // ..... //
+        Bolge[,] map = new Bolge[16, 16];
+        public Bolge[,] Map { get { return map; } set { map = value; } }
     }
 }
